@@ -1,7 +1,7 @@
 # feed-Forword
 # Neural Network Visualization and Computation
 
-This project visualizes a simple feedforward neural network and demonstrates the forward pass computations using the hyperbolic tangent (tanh) activation function.
+This project demonstrates a simple neural network with two inputs, two hidden neurons, and two outputs. It includes a visualization of the network architecture and the tanh activation function, along with a formatted output of intermediate and final results.
 
 ## Code Explanation
 
@@ -17,7 +17,7 @@ We import `matplotlib.pyplot` for visualization and `numpy` for numerical comput
 def tanh(x):
     return (2 / (1 + np.exp(-2 * x))) - 1
 ```
-This function implements the tanh activation function, which scales values between -1 and 1.
+Purpose: Define the hyperbolic tangent (tanh) activation function using numpy's exponential function for vectorization.
 
 ### Plotting the Neural Network Architecture
 ```python
